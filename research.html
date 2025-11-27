@@ -3,17 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <title>Research | Mallika Sharma</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Lato', sans-serif;
+      line-height: 1.7;
+      font-size: 18px;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    nav {
+      text-align:center; 
+      background-color:#003366; 
+      padding:15px;
+    }
+    nav a {
+      color:white; 
+      margin:0 15px; 
+      text-decoration:none;
+    }
+    h1, h2, h3 {
+      color:#003366;
+    }
+    details {
+      margin: 10px 0 20px 0;
+      padding: 10px;
+      background-color: #f0f4f8;
+      border-radius: 6px;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: bold;
+      color: #003366;
+    }
+  </style>
 </head>
 <body>
-  <h1>Research</h1>
+
+  <!-- Navigation bar -->
   <nav>
-    <a href="index.html">Home</a> |
-    <a href="research.html">Research</a> |
-    <a href="teaching.html">Teaching</a> |
-    <a href="cv.html">CV</a> |
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="research.html">Research</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="cv.html">CV</a>
     <a href="contact.html">Contact</a>
   </nav>
+
+  <h1>Research</h1>
 
   <p>
     My research explores the intersection of energy economics, electricity markets, and environmental policy. 
@@ -25,51 +64,74 @@
   <h2>Working Papers</h2>
 
   <h3>Network Externality of Electric Vehicle Public Charging Infrastructure</h3>
-  <p><strong>Abstract:</strong> Using a novel dataset from over 6,000 EVs across 14 U.S. cities between 2021–2023, combined with detailed public charging infrastructure data, 
+  <p>
+    This project examines how public charging infrastructure affects EV usage and charging behavior. 
+    It highlights the role of station density in reducing range anxiety and increasing vehicle miles traveled.
+  </p>
+  <details>
+    <summary>Read Abstract</summary>
+    <p><strong>Abstract:</strong> Using a novel dataset from over 6,000 EVs across 14 U.S. cities between 2021–2023, combined with detailed public charging infrastructure data, 
     I estimate the causal effect of infrastructure growth on the likelihood of away-from-home charging and overall vehicle usage. At the extensive margin, 
     I examine whether households shift charging outside the home; at the intensive margin, I analyze how charging frequency and driving distance respond to greater station density. 
-    Additionally, I examine heterogeneity in driving behavior, to test whether increased station density has differential impacts on short-distance city-driving or long-distance, recreational trips.
-  </p>
-  <p>The findings reveal a significant and economically meaningful impact. Every 10 additional charging stations per 100,000 of population increases the share of out-of-home charging by 0.0721 pp. 
+    Additionally, I examine heterogeneity in driving behavior, to test whether increased station density has differential impacts on short-distance city-driving or long-distance, recreational trips.</p>
+    <p>The findings reveal a significant and economically meaningful impact. Every 10 additional charging stations per 100,000 of population increases the share of out-of-home charging by 0.0721 pp. 
     For households that have never previously charged away, the probability of initiating away charging rises by 0.05 pp with the same increase in station density. 
     Moreover, the expansion of the charging network demonstrably reduces range anxiety, leading to a substantial increase in EV vehicle miles traveled (VMT): 
-    approximately 0.314 percent for every 10 additional charging stations per 100,000 of population.
-  </p>
-  <p>These findings make three contributions to transportation economics: quantifying the role of public charging infrastructure in alleviating range anxiety and enabling greater EV usage relative to 
+    approximately 0.314 percent for every 10 additional charging stations per 100,000 of population.</p>
+    <p>These findings make three contributions to transportation economics: quantifying the role of public charging infrastructure in alleviating range anxiety and enabling greater EV usage relative to 
     internal combustion engine vehicles; identifying the station attributes most effective in encouraging away-from-home charging; and highlighting the grid implications of shifting charging behavior, 
-    including the potential to incentivize charging during off-peak periods aligned with cleaner electricity generation.
-  </p>
+    including the potential to incentivize charging during off-peak periods aligned with cleaner electricity generation.</p>
+  </details>
 
   <h3>Electric Vehicle Charging and Driving Behaviour <em>(with David Brown, Ali Niazi and Blake Shaffer)</em></h3>
-  <p><strong>Abstract:</strong> In this paper, we examine the charging and driving behavior from over 6,000 electric vehicles from 14 metropolitan areas across the U.S., 
+  <p>
+    This study analyzes charging and driving behavior from millions of EV sessions and trips. 
+    It provides insights into when, where, and how people charge, and the implications for infrastructure planning.
+  </p>
+  <details>
+    <summary>Read Abstract</summary>
+    <p><strong>Abstract:</strong> In this paper, we examine the charging and driving behavior from over 6,000 electric vehicles from 14 metropolitan areas across the U.S., 
     covering 2.3 million charging sessions and 3.3 million driving trips. The study investigates when and where people charge, including the use of different charger types (Level 1, Level 2, or DC Fast) 
     and the frequency of charging. We also explore the extent of EV usage and driving patterns, including annual vehicle mileage, trip length, and daily driving behavior. We observe peak midnight charging, 
     with 66% of charging occurring at home and a mean start state-of-charge at 49%. EV users typically charge four times per week and drive, on average, 16,392 km annually. 
     They also tend to take longer trips during weekends, averaging 46.7 km per day compared to 43.5 km on weekdays. 
     These behavioral insights are critical for policy design shaping the transportation sector, charging infrastructure planning, 
     and energy management programs to support EV adoption and meet decarbonization goals.</p>
+  </details>
 
   <h3>Are Electric Vehicle Charging Equipment Incentives Worth It?</h3>
-  <p><strong>Abstract:</strong> Electric vehicle subsidies extend beyond vehicle price reductions or tax credits to include charging infrastructure incentives. 
+  <p>
+    This paper evaluates the effectiveness of subsidies for charging equipment. 
+    It compares their impact to vehicle price incentives and questions their efficiency in driving adoption.
+  </p>
+  <details>
+    <summary>Read Abstract</summary>
+    <p><strong>Abstract:</strong> Electric vehicle subsidies extend beyond vehicle price reductions or tax credits to include charging infrastructure incentives. 
     To assess their effectiveness, this paper estimates the average treatment effect of Level 3, Level 2 home, and Level 2 commercial charging installation subsidies on EV adoption. 
     Results show that commercial charging equipment incentives have a much smaller effect compared to vehicle price subsidies, while home charger installation rebates have no significant impact on adoption rates. 
     These findings suggest that current allocations toward charging equipment incentives may be inefficient, raising questions about their efficacy in accelerating EV adoption.</p>
+  </details>
 
   <h3>The Value of Quality Electricity Data for Energy and Economic Research <em>(with Megan Bailey and Blake Shaffer)</em></h3>
-  <p><strong>Abstract:</strong> Electricity is both a critical economic input and a cornerstone of the energy transition. 
+  <p>
+    This project highlights the importance of reliable electricity data for policy and research. 
+    It advocates for global data standardization to strengthen energy transition strategies.
+  </p>
+  <details>
+    <summary>Read Abstract</summary>
+    <p><strong>Abstract:</strong> Electricity is both a critical economic input and a cornerstone of the energy transition. 
     As electrification expands across transportation, buildings, and industry, the sector must not only decarbonize but also adapt to rapidly changing demand patterns. 
     Yet, the ability of researchers and policymakers to understand and guide these transitions is constrained by data availability and quality. 
-    While data-rich regions enable robust analysis, many parts of the world lack standardized, granular electricity data, limiting the scope of evidence-based policy design.
-  </p>
-  <p>This paper makes the case for advancing global electricity sector data. We highlight examples of high-quality datasets alongside persistent gaps, emphasizing the importance of spatial and temporal granularity, 
+    While data-rich regions enable robust analysis, many parts of the world lack standardized, granular electricity data, limiting the scope of evidence-based policy design.</p>
+    <p>This paper makes the case for advancing global electricity sector data. We highlight examples of high-quality datasets alongside persistent gaps, emphasizing the importance of spatial and temporal granularity, 
     accessibility, and harmonization. We illustrate how electricity data has been used in diverse areas of economic analysis—from studying energy transition pathways to serving as an 
     economic indicator and informing regulatory debates. At the same time, we show how poor data quality undermines empirical research, 
     leading to weaker policy recommendations and missed opportunities for welfare improvements.</p>
-  <p>Through selected case studies and literature, we demonstrate the empirical limitations that arise when data is incomplete or inconsistent, 
+    <p>Through selected case studies and literature, we demonstrate the empirical limitations that arise when data is incomplete or inconsistent, 
     including challenges in panel modeling and demand forecasting. Building on these insights, we propose a framework for global data standardization and advocate for coordinated efforts among policymakers, 
     utilities, and researchers to establish harmonized electricity data platforms. By doing so, we aim to empower both advanced and emerging economies to make informed decisions in the energy transition. 
-    Ultimately, this paper underscores the social importance of reliable electricity data for economic research and offers actionable policy recommendations to strengthen data infrastructure worldwide.
-  </p>
+    Ultimately, this paper underscores the social importance of reliable electricity data for economic research and offers actionable policy recommendations to strengthen data infrastructure worldwide.</p>
+  </details>
 
 </body>
 </html>
