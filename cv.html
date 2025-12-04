@@ -3,31 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <title>CV | Mallika Sharma</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Lato', sans-serif;
+      line-height: 1.7;
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      text-align:center; 
+      background-color:#003366; 
+      padding:15px;
+    }
+    nav a {
+      color:white; 
+      margin:0 15px; 
+      text-decoration:none;
+    }
+    .banner {
+      background-color: #e6f0ff;   /* soft blue background */
+      border-radius: 12px;
+      padding: 30px;
+      margin: 40px auto;
+      max-width: 900px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align:center;
+      color:#003366;
+    }
+    h2 {
+      color:#800020; /* deep red headings for consistency */
+    }
+  </style>
 </head>
 <body>
-  <h1>Curriculum Vitae</h1>
+
+  <!-- Navigation bar -->
   <nav>
-    <a href="index.html">Home</a> |
-    <a href="research.html">Research</a> |
-    <a href="teaching.html">Teaching</a> |
-    <a href="cv.html">CV</a> |
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="research.html">Research</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="cv.html">CV</a>
     <a href="contact.html">Contact</a>
   </nav>
 
-<p>
-  I maintain both an academic CV, which details my research, teaching, and scholarly contributions, 
-  and an industry resume, which highlights applied skills and professional experience. 
-  Please select the version most relevant to your needs.
-</p>
-  <h2>Curriculum Vitae</h2>
-<p>
-  <a href="Mallika Sharma_Academic CV.pdf" target="_blank">Download Academic CV (PDF)</a>
-</p>
+  <!-- Page title -->
+  <h1>Curriculum Vitae</h1>
 
-<h2> Resume</h2>
-<p>
-  <a href="Mallika Sharma_Resume.pdf" target="_blank">Download non-Academic Resume (PDF)</a>
-</p>
+  <!-- Intro banner -->
+  <div class="banner">
+    <p>
+      I maintain both an academic CV, which details my research, teaching, and scholarly contributions, 
+      and an industry resume, which highlights applied skills and professional experience. 
+      Please select the version most relevant to your needs.
+    </p>
+  </div>
+
+  <!-- CV download -->
+  <div style="max-width:900px; margin:30px auto;">
+    <h2>Curriculum Vitae</h2>
+    <p>
+      <a href="Mallika Sharma_Academic CV.pdf" target="_blank">Download Academic CV (PDF)</a>
+    </p>
+
+    <h2>Resume</h2>
+    <p>
+      <a href="Mallika Sharma_Resume.pdf" target="_blank">Download non-Academic Resume (PDF)</a>
+    </p>
+  </div>
+
 </body>
 </html>
