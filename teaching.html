@@ -21,7 +21,7 @@
       margin:0 15px; 
       text-decoration:none;
     }
-    .teaching-wrapper {
+    .banner {
       background-color: #e6f0ff;   /* soft blue background */
       border-radius: 12px;
       padding: 30px;
@@ -29,8 +29,16 @@
       max-width: 900px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    h1, h2, h3 {
-      color:#003366;
+    .section-banner {
+      background-color: #f9f9f9;   /* light neutral background */
+      border-radius: 12px;
+      padding: 25px;
+      margin: 30px auto;
+      max-width: 900px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.08);
+    }
+    h2, h3 {
+      color:#800020; /* deep red for headings */
     }
   </style>
 </head>
@@ -46,9 +54,8 @@
     <a href="contact.html">Contact</a>
   </nav>
 
-  <!-- Teaching content inside banner -->
-  <div class="teaching-wrapper">
-    <h1>Teaching</h1>
+  <!-- Intro banner -->
+  <div class="banner">
     <p>
       I have extensive teaching experience in multiple introductory and intermediate economics courses. 
     </p>
@@ -56,14 +63,20 @@
       You can read my full teaching statement here: 
       <a href="Teaching Statement.pdf" target="_blank">Teaching Statement (PDF)</a>
     </p>
+  </div>
 
-    <h3>Instructor</h3>
+  <!-- Instructor banner -->
+  <div class="section-banner">
+    <h2>Instructor</h2>
     <ul>
       <li><strong>ECON 395: Introduction to Econometrics</strong> (Summer 2025)</li>
       <li><strong>ECON 311: Computer Applications in Economics</strong> (Spring 2023)</li>
     </ul>
+  </div>
 
-    <h3>Teaching Assistant</h3>
+  <!-- Teaching Assistant banner -->
+  <div class="section-banner">
+    <h2>Teaching Assistant</h2>
     <p><em>With teaching experience, 2019–present (multiple terms for some courses)</em></p>
     <ul>
       <li>Principles of Microeconomics</li>
